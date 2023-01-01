@@ -6,15 +6,28 @@ const DialogueGuess = (props) => {
   let [currentQst, setCurrentQst] = useState("");
   let [currentAns, setCurrentAns] = useState("");
 
+  let [input, setInput] = useState("");
+
   function getQst() {
-    const pick = dialogue[Math.floor(Math.random() * dialogue.length)];
+    const index = Math.floor(Math.random() * dialogue.length);
+    const pick = dialogue[index];
 
     console.log(pick);
 
     setCurrentAns((currentAns = pick["ans"]));
     setCurrentQst((currentQst = pick["qst"]));
+  }
 
-    console.log(currentAns, currentQst);
+  function validateQst() {
+    if (input === currentAns) {
+      props.onSuccess(1);
+
+      getQst();
+    }
+  }
+
+  function handleInputChange(event) {
+    setInput((input = event.target.value));
   }
 
   useEffect(() => {
@@ -28,30 +41,21 @@ const DialogueGuess = (props) => {
     <div className="w-1/4 flex-col drop-shadow-xl">
       {/*Dialogue box*/}
       <div className="bg-gray-500 p-1 text-center text-xl text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
-        nulla accumsan, viverra enim quis, efficitur tellus. Pellentesque
-        sodales egestas nunc vel accumsan. Aenean sollicitudin, erat quis
-        consequat venenatis, turpis erat consequat lacus, vitae dapibus mi odio
-        vel nunc. Praesent pulvinar eu turpis ut ornare. Nam non feugiat tortor.
-        Aliquam facilisis iaculis odio, at efficitur ex pellentesque ut. Donec a
-        purus scelerisque, convallis ex at, porta nisl. Mauris dapibus a nibh
-        sed viverra. Nulla porta imperdiet dolor ut volutpat. Proin consectetur
-        fringilla dapibus. Proin ut enim nec est fringilla bibendum. Quisque
-        tortor lorem, aliquet vulputate ornare vitae, scelerisque ut nulla. Nunc
-        sodales sodales vestibulum. Sed et enim vel nisl ultricies posuere.
-        Nulla lacus libero, aliquet ultricies ex in, blandit fringilla elit.
+        {currentQst}
       </div>
       {/*Guess box*/}
       <div className="bg-gray-600 p-2 flex justify-center">
         <input
+          type="text"
           className="p-1 w-full"
           placeholder="Guess the character..."
+          onChange={handleInputChange}
         ></input>
         <button
           type="button"
-          className="bg-white shadow-lg border-4 p-1.5 mr-auto"
+          className="bg-white border-2 p-1.5"
           onClick={() => {
-            props.onSuccess(2);
+            validateQst();
           }}
         >
           Guess
@@ -66,12 +70,13 @@ const App = () => {
 
   const incrScore = (amount) => {
     setScore(Number(score + amount));
-    console.log(`The score is: ${score}`);
+    console.log(`The score is: ${score + amount}`);
   };
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full h-full flex-col">
       <DialogueGuess onSuccess={incrScore}></DialogueGuess>
+      <span className="text-xl shadow-md p-1">Score: {score}</span>
     </div>
   );
 };
