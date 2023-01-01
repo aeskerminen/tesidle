@@ -1,5 +1,12 @@
 [
-    {"qst": "kreizi", "ans":"Moilanen"},
-    {"qst": "hihi", "ans":"Helmi"},
-    {"qst": "hähähä", "ans":"Kerminen"}
+    {"name": "Astrid", "dialogue":["Do it, Listener. Kill me.", "Maro is dead, I know. But we've got bigger problems right now!"]},
+
+    {"name": "Colette Marence", "dialogue":["Restoration is a perfectly valid school of magic. And don't let anyone tell you otherwise!", "Look at you. Such a devoted student of Restoration."]},
+    {"name": "Urag-Gro Shub", "dialogue": ["I better not see you treating any of these books poorly, are we clear?", "It would take a month to explain to you how that very question doesn't even make sense."]},
+    
+    {"name": "Nazeem", "dialogue": ["Do you get to the Cloud District very often? Oh what am I saying, of course you don't.", "I actually advise the Jarl on political matters. My input is invaluable, of course. But this is all probably a bit over your head."]},
+    {"name": "Sigurd", "dialogue": ["I work for Belethor, at the general goods store", "Shop at Belethor's for the best prices and selection. He pays me to say that."]},
+    
+
+    {"name": "Helmi", "dialogue":"hihi"}
 ]
