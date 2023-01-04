@@ -43,6 +43,22 @@ export const CharacterGuessWrapper = (props) => {
     }
   }, [currentCharacter]);
 
+  const infoSpanStyle = {
+    minWidth: "75px",
+    maxWidth: "150px",
+    textAlign: "center",
+  };
+
+  function CheckValidCharacterInput() {
+    if (!nameArray.includes(input)) {
+      if (names.includes(input)) {
+        setGuessArray((guessArray = [...guessArray, dialogueData[input]]));
+        setNameArray((nameArray = [...nameArray, input]));
+        setcurrentCharacter(dialogueData[input]);
+      }
+    }
+  }
+
   return (
     <div className="w-full p-2 flex flex-col drop-shadow-xl items-center">
       {/*Guess box*/}
@@ -56,17 +72,7 @@ export const CharacterGuessWrapper = (props) => {
         <button
           type="button"
           className="bg-white border-2 p-1.5"
-          onClick={() => {
-            if (!nameArray.includes(input)) {
-              if (names.includes(input)) {
-                setGuessArray(
-                  (guessArray = [...guessArray, dialogueData[input]])
-                );
-                setNameArray((nameArray = [...nameArray, input]));
-                setcurrentCharacter(dialogueData[input]);
-              }
-            }
-          }}
+          onClick={CheckValidCharacterInput}
         >
           Guess
         </button>
@@ -84,46 +90,25 @@ export const CharacterGuessWrapper = (props) => {
 
       {/*Info box*/}
       <div className="flex flex-row p-2 text-lg w-1/2">
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Race
         </span>
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Gender
         </span>
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Class
         </span>
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Location
         </span>
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Rank
         </span>
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Faction
         </span>
-        <span
-          style={{ minWidth: "75px", maxWidth: "150px", textAlign: "center" }}
-          className="w-1/6"
-        >
+        <span style={infoSpanStyle} className="w-1/6">
           Services
         </span>
       </div>
