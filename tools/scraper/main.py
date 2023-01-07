@@ -29,13 +29,14 @@ for char in characters_parent_elem:
 
 character_list = dict()
 
-for url in character_urls:
+for url in character_urls[9:]:
     char_request = get(url)
     char_soup = BeautifulSoup(char_request.content, "html.parser")
     name_box = char_soup.find("h1", id="firstHeading")
     info_box = char_soup.find("div", class_="mw-parser-output").find_next("aside").find_next("section").find_all("div", "pi-item pi-data pi-item-spacing pi-border-color")
     stats = dict()
     name = re.sub(r"[\n\t]*", "", name_box.string)
+    name = name.replace("(Skyrim)", "").strip()
     stats["Name"] = name
     for x in info_box: 
         label = x.find("h3")
