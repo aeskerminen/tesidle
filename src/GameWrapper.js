@@ -8,6 +8,10 @@ export const GameWrapper = (props) => {
   let [cardData, setCardData] = useState([]);
   let [cardNames, setCardNames] = useState([]);
 
+  let [playedCards, setPlayedCards] = useState([]);
+
+  let [targetCard, setTargetCard] = useState();
+
   let [input, setInput] = useState("");
 
   const infoSpanStyle = {
@@ -17,10 +21,16 @@ export const GameWrapper = (props) => {
   };
 
   useEffect(() => {
-    setCardData([...Object.values(Cards)]);
+    const values = Object.values(Cards);
+    setCardData((cardData = [...values]));
 
-    console.log(cardData);
+    getTargetCard();
   }, []);
+
+  function getTargetCard() {
+    const index = Math.floor(Math.random() * cardData.length);
+    setTargetCard((targetCard = cardData[index]));
+  }
 
   return (
     <div className="w-full">
@@ -41,6 +51,15 @@ export const GameWrapper = (props) => {
             placeholder="Name a Card..."
             className="p-2 shadow-md focus:outline-none"
           ></input>
+          <button
+            onClick={() => {
+              setPlayedCards((playedCards = [...playedCards, Cards[input]]));
+            }}
+            type="button"
+            className="p-2 shadow-md bg-white ml-1"
+          >
+            Lay
+          </button>
         </div>
 
         {/* Info box */}
@@ -65,7 +84,9 @@ export const GameWrapper = (props) => {
           </span>
         </div>
         <div className="flex flex-col gap-y-2 w-1/2">
-          <CardWrapper card={Cards["Abnur Tharn"]}></CardWrapper>
+          {playedCards.map((cur) => {
+            return <CardWrapper card={cur} target={targetCard}></CardWrapper>;
+          })}
         </div>
       </div>
     </div>
