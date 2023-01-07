@@ -2,16 +2,16 @@ import React from "react";
 
 export const CharacterInfoBox = (props) => {
   return (
-    <div className="flex flex-row p-2 align-middle">
+    <div className="flex flex-row p-1 mt-2 bg-white shadow-xl rounded-lg align-middle">
       <span
         style={
           props.curChar["Race"] === props.tgtChar["Race"]
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Race"]}
+        {props.curChar["Race"] || "N/A" }
       </span>
       <span
         style={
@@ -19,9 +19,9 @@ export const CharacterInfoBox = (props) => {
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Gender"]}
+        {props.curChar["Gender"] || "N/A"}
       </span>
       <span
         style={
@@ -29,9 +29,9 @@ export const CharacterInfoBox = (props) => {
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Class"]}
+        {props.curChar["Class"] || "N/A"}
       </span>
       <span
         style={
@@ -39,9 +39,9 @@ export const CharacterInfoBox = (props) => {
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Location"]}
+        {props.curChar["Location"] || "N/A"}
       </span>
       <span
         style={
@@ -49,9 +49,9 @@ export const CharacterInfoBox = (props) => {
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Rank"]}
+        {props.curChar["Rank"] || "N/A"}
       </span>
       <span
         style={
@@ -59,9 +59,9 @@ export const CharacterInfoBox = (props) => {
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Faction"]}
+        {props.curChar["Faction"] || "N/A"}
       </span>
       <span
         style={
@@ -69,9 +69,9 @@ export const CharacterInfoBox = (props) => {
             ? { backgroundColor: "green" }
             : { backgroundColor: "red" }
         }
-        className="p-1border-black border-2 w-1/6 text-center"
+        className="p-0.5 m-0.5 rounded-lg shadow-md w-1/6 text-center"
       >
-        {props.curChar["Services"]}
+        {props.curChar["Services"] || "N/A"}
       </span>
     </div>
   );
