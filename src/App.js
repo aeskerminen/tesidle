@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CharacterGuessWrapper } from "./CharacterGuessWrapper";
+import { GameWrapper } from "./GameWrapper";
 import HomePage from "./HomePage";
 import background from "./img/sk_bg.jpg";
 
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div style={{ backgroundImage: `url(${background})`, height: "100vh" }}>
       {!test && <HomePage></HomePage>}
-      {test && <CharacterGuessWrapper></CharacterGuessWrapper>}
+      {test && <GameWrapper></GameWrapper>}
     </div>
   );
 };
