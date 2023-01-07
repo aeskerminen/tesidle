@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-export const CharacterGuessWrapper = (props) => {
+export const GameWrapper = (props) => {
   let [characterData, setCharacterData] = useState([]);
   let [characterNames, setCharacterNames] = useState([]);
 
@@ -22,7 +22,18 @@ export const CharacterGuessWrapper = (props) => {
       </h1>
 
       <div className="mt-auto w-full p-2 flex flex-col drop-shadow-xl items-center">
-        {/*Info box*/}
+        {/* Card input */}
+        <div className="mb-2">
+          <input
+            onChange={(e) => {
+              setInput(e.target.value);
+            }}
+            placeholder="Name a Card..."
+            className="p-2 shadow-md focus:outline-none"
+          ></input>
+        </div>
+
+        {/* Info box */}
         <div className="flex flex-row p-2 text-lg w-1/2 bg-white rounded-lg shadow-md">
           <span style={infoSpanStyle} className="w-1/6">
             Set
