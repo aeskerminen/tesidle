@@ -1,8 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
 
+import Cards from "./data/cards.json";
+
+import { CardWrapper } from "./CardWrapper";
+
 export const GameWrapper = (props) => {
-  let [characterData, setCharacterData] = useState([]);
-  let [characterNames, setCharacterNames] = useState([]);
+  let [cardData, setCardData] = useState([]);
+  let [cardNames, setCardNames] = useState([]);
 
   let [input, setInput] = useState("");
 
@@ -11,6 +15,12 @@ export const GameWrapper = (props) => {
     maxWidth: "150px",
     textAlign: "center",
   };
+
+  useEffect(() => {
+    setCardData([...Object.values(Cards)]);
+
+    console.log(cardData);
+  }, []);
 
   return (
     <div className="w-full">
@@ -54,7 +64,9 @@ export const GameWrapper = (props) => {
             Rarity
           </span>
         </div>
-        <div className="flex flex-col gap-y-2 w-1/2"></div>
+        <div className="flex flex-col gap-y-2 w-1/2">
+          <CardWrapper card={Cards["Abnur Tharn"]}></CardWrapper>
+        </div>
       </div>
     </div>
   );
