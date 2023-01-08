@@ -1,11 +1,14 @@
 from bs4 import BeautifulSoup
 from requests import get
 
+import json
+
 from string import ascii_uppercase
 
 base_url = "https://elderscrolls.fandom.com"
 card_link_elements = []
 card_links = []
+img_urls = dict()
 card_list = dict()
 
 # for char in ascii_uppercase:
@@ -22,16 +25,23 @@ for char in card_link_elements:
     card_links.append(char_url)
 
 for card in card_links[5:]:
+
     request = get(card)
     card_page = BeautifulSoup(request.content, "html.parser")
     info_box = card_page.find("div",
                               class_="mw-parser-output").find_next("aside")
+
     stats_dict = dict()
     name = info_box.find("h2")
     if name is None:
         continue
     else:
         name = name.string
+    try:
+        cover_img = card_page.find('div', class_='wikia-gallery-item').find_next('img')
+        img_urls[name] = cover_img['src']
+    except: print("No cover found")
+
     stats_dict["Name"] = name
     stats = info_box.find_all(
         "div", class_="pi-item pi-data pi-item-spacing pi-border-color")
@@ -76,5 +86,14 @@ for card in card_links[5:]:
                         value = [x for x in children][1].strip()
                 
                 stats_dict[label] = value
-    print(stats_dict)
     card_list[name] = stats_dict
+
+card_list_json = json.dumps(card_list, indent=3)
+
+with open("../../src/data/cards.json", "w") as file:
+    file.write(card_list_json)
+
+for key in img_urls:
+    img_data = get(img_urls[key]).content
+    with open(f'../../src/data/cards/{key}.jpg', 'wb') as handler:
+        handler.write(img_data)
