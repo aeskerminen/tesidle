@@ -8,9 +8,9 @@ import { CardWrapper } from "./CardWrapper";
 
 export const GameWrapper = (props) => {
   let [cardData, setCardData] = useState([]);
-  let [cardNames, setCardNames] = useState([]);
 
   let [playedCards, setPlayedCards] = useState([]);
+  let [playedCardNames, setPlayedCardNames] = useState([]);
 
   let [targetCard, setTargetCard] = useState();
 
@@ -135,7 +135,15 @@ export const GameWrapper = (props) => {
             ></input>
             <button
               onClick={() => {
-                setPlayedCards((playedCards = [Cards[input], ...playedCards]));
+                if (!playedCardNames.includes(input)) {
+                  setPlayedCards(
+                    (playedCards = [Cards[input], ...playedCards])
+                  );
+
+                  setPlayedCardNames(
+                    (playedCardNames = [input, ...playedCardNames])
+                  );
+                }
               }}
               type="button"
               className="p-2 shadow-md bg-white ml-1"
