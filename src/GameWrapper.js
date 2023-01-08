@@ -18,12 +18,6 @@ export const GameWrapper = (props) => {
 
   let [showHelp, setShowHelp] = useState(false);
 
-  const infoSpanStyle = {
-    minWidth: "75px",
-    maxWidth: "150px",
-    textAlign: "center",
-  };
-
   useEffect(() => {
     const values = Object.values(Cards);
     setCardData((cardData = [...values]));
@@ -152,24 +146,12 @@ export const GameWrapper = (props) => {
 
           {/* Info box */}
           <div className="grid grid-cols-6 p-2 bg-white rounded-lg shadow-md w-2/3 justify-items-center">
-            <span style={infoSpanStyle} className="w-1/6">
-              Set
-            </span>
-            <span style={infoSpanStyle} className="w-1/6">
-              Type
-            </span>
-            <span style={infoSpanStyle} className="w-1/6">
-              Subtype
-            </span>
-            <span style={infoSpanStyle} className="w-1/6">
-              Attributes
-            </span>
-            <span style={infoSpanStyle} className="w-1/6">
-              Class
-            </span>
-            <span style={infoSpanStyle} className="w-1/6">
-              Rarity
-            </span>
+            <span>Set</span>
+            <span>Type</span>
+            <span>Subtype</span>
+            <span>Attributes</span>
+            <span>Class</span>
+            <span>Rarity</span>
           </div>
           <div className="flex flex-col gap-y-2 w-2/3">
             {playedCards.map((cur) => {
