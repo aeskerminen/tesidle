@@ -1,3 +1,2004 @@
-[
-    {"name": "", "race": "", "gender": "", "location": ""}
-]
+{
+   "Abelone": {
+      "Name": "Abelone",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Location": [
+         "Windpeak Inn",
+         "Dawnstar"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Acolyte Jenssen": {
+      "Name": "Acolyte Jenssen",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Priest",
+      "Faction": "Whiterun",
+      "Rank": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adara": {
+      "Name": "Adara",
+      "Race": "Redguard",
+      "Gender": "Female",
+      "Class": "Child",
+      "Rank": "Citizen",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Addvar": {
+      "Name": "Addvar",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Food Vendor",
+      "Rank": "Citizen",
+      "Services": "Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Addvild": {
+      "Name": "Addvild",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Farmer",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adeber": {
+      "Name": "Adeber",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Miner",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adelaisa Vendicci": {
+      "Name": "Adelaisa Vendicci",
+      "Race": "Imperial",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Faction": "East Empire Company",
+      "Services": [
+         "Follower",
+         "Steward",
+         "Rebuilding the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adisla": {
+      "Name": "Adisla",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Farmer",
+      "Faction": "Hlaalu Farm",
+      "Rank": "Citizen",
+      "Services": "Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adonato Leotelli": {
+      "Name": "Adonato Leotelli",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Bard",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adrianne Avenicci": {
+      "Name": "Adrianne Avenicci",
+      "Race": "Imperial",
+      "Gender": "Female",
+      "Class": "Blacksmith",
+      "Faction": "Whiterun",
+      "Services": "Blacksmith",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aduri Sarethi": {
+      "Name": "Aduri Sarethi",
+      "Race": "Dunmer",
+      "Gender": "Female",
+      "Class": "Farmer",
+      "Faction": "The Rift",
+      "Rank": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Adventurer": {
+      "Name": "Adventurer",
+      "Race": [
+         "Breton",
+         "Imperial",
+         "Nord",
+         "Orsimer",
+         "Redguard"
+      ],
+      "Gender": [],
+      "Class": "Radiant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aela the Huntress": {
+      "Name": "Aela the Huntress",
+      "Race": [
+         "Nord",
+         "Werewolf"
+      ],
+      "Gender": "Female",
+      "Class": "Thief",
+      "Faction": [
+         "The Companions",
+         "The Circle"
+      ],
+      "Rank": "Expert",
+      "Services": [
+         "Archery",
+         "training",
+         "Follower",
+         "Spouse",
+         "lycanthropy",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "Before The Companions quest line is completed",
+      "Respawn": "No"
+   },
+   "Aeri": {
+      "Name": "Aeri",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Lumberjack",
+      "Location": "Anga's Mill",
+      "Services": [
+         "Marriage"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aerin": {
+      "Name": "Aerin",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Riften",
+      "Rank": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Affable Gent": {
+      "Name": "Affable Gent",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Afflicted": {
+      "Name": "Afflicted"
+   },
+   "Afflicted Refugee": {
+      "Name": "Afflicted Refugee",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Bandit",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Afflicted Remnants": {
+      "Name": "Afflicted Remnants"
+   },
+   "Agent Lorcalin": {
+      "Name": "Agent Lorcalin",
+      "Race": "Altmer",
+      "Gender": "Male",
+      "Class": "Thalmor Wizard",
+      "Faction": "Thalmor",
+      "Rank": "Member",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Agna": {
+      "Name": "Agna",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Bandit",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Agni": {
+      "Name": "Agni",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Child",
+      "Rank": "Citizen",
+      "Services": "None",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Agnis": {
+      "Name": "Agnis",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Faction": "Various",
+      "Rank": "Maid",
+      "Services": "Quest NPC",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Agrius": {
+      "Name": "Agrius",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Bandit",
+      "Location": [
+         "Halldir's Cairn",
+         "Falkreath Hold"
+      ],
+      "Health": [
+         null
+      ],
+      "Magicka": [
+         null
+      ],
+      "Stamina": "70",
+      "Condition": "Deceased",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Ahjisi": {
+      "Name": "Ahjisi",
+      "Race": "Khajiit",
+      "Gender": "Female",
+      "Class": "Bandit",
+      "Faction": "Hunters of Hircine",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Ahkari": {
+      "Name": "Ahkari",
+      "Race": "Khajiit",
+      "Gender": "Female",
+      "Class": "Pawnbroker",
+      "Faction": "Khajiit Caravans",
+      "Services": [
+         "Merchant",
+         "Fence"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Ahlam": {
+      "Name": "Ahlam",
+      "Race": "Redguard",
+      "Gender": "Female",
+      "Class": "Priest",
+      "Faction": "Whiterun",
+      "Services": "Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Ahtar": {
+      "Name": "Ahtar",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Haafingar",
+      "Rank": "Citizen",
+      "Services": [
+         "Follower",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Aia Arria": {
+      "Name": "Aia Arria",
+      "Race": "Imperial",
+      "Gender": "Female",
+      "Class": "Bard",
+      "Location": "Bards College",
+      "Faction": "Bards College",
+      "Rank": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aicantar": {
+      "Name": "Aicantar",
+      "Race": "Altmer",
+      "Gender": "Male",
+      "Class": "Conjurer",
+      "Location": [
+         "Understone Keep",
+         "Calcelmo's Laboratory",
+         "Hard Answers"
+      ],
+      "Essential": [
+         "Hard Answers"
+      ],
+      "Respawn": "No"
+   },
+   "Ainethach": {
+      "Name": "Ainethach",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Miner",
+      "Faction": "The Reach",
+      "Services": "Marriage",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alain Dufont": {
+      "Name": "Alain Dufont",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Prisoner",
+      "Faction": "Bandits",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alding": {
+      "Name": "Alding",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": [
+         "Warrior",
+         "One-Handed"
+      ],
+      "Location": [
+         "Windpeak Inn",
+         "Dawnstar"
+      ],
+      "Faction": "Blood Horker",
+      "Rank": "Crewman",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alduin": {
+      "Name": "Alduin",
+      "null": "4",
+      "Stamina": "80",
+      "Spells / Abilities": [
+         "Fire Breath",
+         "Frost Breath",
+         "Unrelenting Force",
+         "Dragon Fireball shout"
+      ],
+      "Resistance": "50% to all damage sources"
+   },
+   "Alea Quintus": {
+      "Name": "Alea Quintus",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alesan": {
+      "Name": "Alesan",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Child",
+      "Location": [
+         "Windpeak Inn",
+         "Dawnstar"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Alessandra": {
+      "Name": "Alessandra",
+      "Race": "Imperial",
+      "Gender": "Female",
+      "Class": "Priest",
+      "Faction": "Riften",
+      "Rank": [
+         "Arkay"
+      ],
+      "Services": "Quest Giver",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alethius": {
+      "Name": "Alethius",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Location": "Nchuand-Zel Excavation Site",
+      "Faction": "Imperial Legion",
+      "Rank": "Soldier",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Alexia Vici": {
+      "Name": "Alexia Vici",
+      "Race": "Imperial",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Rank": "Noble",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alfarinn": {
+      "Name": "Alfarinn",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Location": "Windhelm Stables",
+      "Faction": "Carriage Drivers",
+      "Services": "Carriage",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Alfhild Battle-Born": {
+      "Name": "Alfhild Battle-Born",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Farmer",
+      "Faction": "Battle-Born",
+      "Rank": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alik'r Prisoner": {
+      "Name": "Alik'r Prisoner",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Scout",
+      "Faction": "Alik'r",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Alik'r Warrior": {
+      "Name": "Alik'r Warrior"
+   },
+   "Alva": {
+      "Name": "Alva",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Vampire",
+      "Faction": "Crime Faction Hjaalmarch",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Alvor": {
+      "Name": "Alvor",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Blacksmith",
+      "Faction": "Whiterun",
+      "Services": [
+         "Blacksmith",
+         "Merchant"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Amaund Motierre": {
+      "Name": "Amaund Motierre",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Bard",
+      "Location": [
+         "Volunruud",
+         "The Bannered Mare"
+      ],
+      "Faction": "Elder Council",
+      "Services": "None",
+      "Essential": [
+         "Hail Sithis!"
+      ],
+      "Respawn": "No"
+   },
+   "Ambarys Rendar": {
+      "Name": "Ambarys Rendar",
+      "Race": "Dunmer",
+      "Class": "Food vendor",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Amren": {
+      "Name": "Amren",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Whiterun",
+      "Services": "Skill Trainer: One-Handed",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Ancano": {
+      "Name": "Ancano",
+      "Race": "Altmer",
+      "Gender": "Male",
+      "Class": "Elemental Mage",
+      "Faction": [
+         "College of Winterhold",
+         "Thalmor"
+      ],
+      "Rank": "Advisor",
+      "Essential": [
+         "The Eye of Magnus"
+      ],
+      "Respawn": "No"
+   },
+   "Anders": {
+      "Name": "Anders",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Rank": "Bandit",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Andurs": {
+      "Name": "Andurs",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Priest",
+      "Faction": "Whiterun",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Angeline Morrard": {
+      "Name": "Angeline Morrard",
+      "Race": "Breton",
+      "Gender": "Female",
+      "Class": "Apothecary",
+      "Location": "Angeline's Aromatics",
+      "Faction": "Haafingar",
+      "Services": "Alchemist",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Anger": {
+      "Name": "Anger",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": [
+         "Warrior"
+      ],
+      "Location": "The Mind of a Madman",
+      "Health": "30050",
+      "Magicka": "50",
+      "Stamina": "50",
+      "Faction": "dunBluePalaceEnemyFaction",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Angi": {
+      "Name": "Angi",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Ranger",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Angrenor Once-Honored": {
+      "Name": "Angrenor Once-Honored",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Beggar",
+      "Rank": "Citizen",
+      "Services": "Spouse",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Angvid": {
+      "Name": "Angvid",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Miner",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Anise": {
+      "Name": "Anise",
+      "Race": "Elder",
+      "Gender": "Female",
+      "Class": "Conjurer",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Annekke Crag-Jumper": {
+      "Name": "Annekke Crag-Jumper",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Archer",
+      "Faction": "Eastmarch",
+      "Services": [
+         "Follower",
+         "Steward",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Anoriath": {
+      "Name": "Anoriath",
+      "Race": "Bosmer",
+      "Gender": "Male",
+      "Class": "Scout",
+      "Location": "Whiterun",
+      "Health": "91",
+      "Magicka": "67",
+      "Stamina": "67",
+      "Rank": "Merchant",
+      "Services": "Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Anska": {
+      "Name": "Anska",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Mage",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Anton Virane": {
+      "Name": "Anton Virane",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Faction": "Markarth",
+      "Essential": [
+         "Recipe for Disaster"
+      ],
+      "Respawn": "No"
+   },
+   "Anuriel": {
+      "Name": "Anuriel",
+      "Race": "Bosmer",
+      "Gender": "Female",
+      "Class": "Monk",
+      "Faction": "Riften",
+      "Rank": "Stewardess",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Anwen": {
+      "Name": "Anwen",
+      "Race": "Redguard",
+      "Gender": "Female",
+      "Class": "Priest",
+      "Location": [
+         "Temple of Dibella",
+         "Markarth"
+      ],
+      "Faction": [
+         "Dibella"
+      ],
+      "Services": [
+         "Marriage",
+         "shop"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aquillius Aeresius": {
+      "Name": "Aquillius Aeresius",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Faction": [
+         "Haafingar",
+         "East Empire Company"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aranea Ienith": {
+      "Name": "Aranea Ienith",
+      "Race": "Dunmer",
+      "Gender": "Female",
+      "Class": "Elemental Mage",
+      "Faction": "Azura",
+      "Rank": "Priestess",
+      "Services": [
+         "Follower",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arcadia": {
+      "Name": "Arcadia",
+      "Race": "Imperial",
+      "Gender": "Female",
+      "Class": "Apothecary",
+      "Rank": "Expert Alchemist",
+      "Services": [
+         "Alchemy Training",
+         "Alchemist"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arcturus": {
+      "Name": "Arcturus",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Penitus Oculatus",
+      "Faction": "Penitus Oculatus",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Ardwen": {
+      "Name": "Ardwen",
+      "Race": "Bosmer",
+      "Gender": "Female",
+      "Class": "Elemental Mage",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Argi Farseer": {
+      "Name": "Argi Farseer",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Mystic",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Argis the Bulwark": {
+      "Name": "Argis the Bulwark",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Markarth",
+      "Rank": "Housecarl",
+      "Services": [
+         "Follower",
+         "Spouse",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Ari": {
+      "Name": "Ari",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Bandit",
+      "Location": [
+         "Moss Mother Cavern",
+         "Falkreath Hold"
+      ],
+      "Health": [
+         null
+      ],
+      "Magicka": [
+         null
+      ],
+      "Stamina": "70",
+      "Condition": "Deceased",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aringoth": {
+      "Name": "Aringoth",
+      "Race": "Altmer",
+      "Gender": "Male",
+      "Class": "Ranger",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arivanya": {
+      "Name": "Arivanya",
+      "Race": "Altmer",
+      "Gender": "Female",
+      "Class": "Bard",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arnbjorn": {
+      "Name": "Arnbjorn",
+      "Race": "Nord,Werewolf",
+      "Gender": "Male",
+      "Class": "Assassin",
+      "Location": "Dark Brotherhood Sanctuary",
+      "Faction": "Dark Brotherhood",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Arngeir": {
+      "Name": "Arngeir",
+      "Race": "Elder",
+      "Gender": "Male",
+      "Class": "Priest",
+      "Health": "1292",
+      "Magicka": "50",
+      "Stamina": "1043",
+      "Faction": "Greybeards",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Arniel Gane": {
+      "Name": "Arniel Gane",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Conjurer",
+      "Faction": "College of Winterhold",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Arniel's Shade": {
+      "Name": "Arniel's Shade",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Sorcerer",
+      "Faction": "College of Winterhold",
+      "Rank": "Scholar",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Arnskar Ember-Master": {
+      "Name": "Arnskar Ember-Master",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Blacksmith",
+      "Faction": "Thieves Guild",
+      "Services": "Blacksmith",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arob": {
+      "Name": "Arob",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Orc Guard",
+      "Faction": "Tribal Orcs",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arondil": {
+      "Name": "Arondil",
+      "Race": "Altmer",
+      "Gender": "Male",
+      "Class": "Conjurer",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Arrald Frozen-Heart": {
+      "Name": "Arrald Frozen-Heart",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Soldier",
+      "Faction": "Stormcloaks",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Arvel the Swift": {
+      "Name": "Arvel the Swift",
+      "Race": "Dunmer",
+      "Gender": "Male",
+      "Class": "Thief",
+      "Location": "Bleak Falls Barrow",
+      "Faction": "Bandits",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Asbjorn Fire-Tamer": {
+      "Name": "Asbjorn Fire-Tamer",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Blacksmith",
+      "Services": "Blacksmith",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Asgeir Snow-Shod": {
+      "Name": "Asgeir Snow-Shod",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Clan Snow-Shod",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Aslfur": {
+      "Name": "Aslfur",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Ranger",
+      "Services": "Bounty Quests",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Aspiring Mage": {
+      "Name": "Aspiring Mage",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Assassin": {
+      "Name": "Assassin",
+      "Race": [
+         "Argonian",
+         "Dunmer",
+         "Khajiit",
+         "Nord"
+      ],
+      "Gender": [],
+      "Class": "Thief",
+      "Location": "Random encounters",
+      "Health": "92\u2013417",
+      "Magicka": "50",
+      "Stamina": "103\u2013363",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Assur": {
+      "Name": "Assur",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Child",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Asta": {
+      "Name": "Asta",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Bandit",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Astrid": {
+      "Name": "Astrid",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Assassin",
+      "Faction": "Dark Brotherhood",
+      "Rank": "Leader",
+      "Services": "Contracts",
+      "Essential": [
+         "With Friends Like These...",
+         "Death Incarnate"
+      ],
+      "Respawn": "No"
+   },
+   "Ataf": {
+      "Name": "Ataf",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Bard",
+      "Faction": "Bards College",
+      "Rank": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Atahbah": {
+      "Name": "Atahbah",
+      "Race": "Khajiit",
+      "Gender": "Female",
+      "Class": "Pawnbroker",
+      "Faction": "Khajiit Caravans",
+      "Services": "Fence",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Atar": {
+      "Name": "Atar",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Rank": "Mercenary",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Athis": {
+      "Name": "Athis",
+      "Race": "Dunmer",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Skills": [
+         "Heavy Armor",
+         "One-Handed"
+      ],
+      "Faction": "The Companions",
+      "Services": [
+         "One-handed",
+         "training",
+         "Follower",
+         "Spouse",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Atmah": {
+      "Name": "Atmah",
+      "Race": "Redguard",
+      "Gender": "Female",
+      "Class": "Sorcerer",
+      "Faction": "College of Winterhold",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Atub": {
+      "Name": "Atub",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Sorcerer",
+      "Faction": "Tribal Orcs",
+      "Services": "Skill Trainer: Illusion",
+      "Essential": [
+         "The Cursed Tribe"
+      ],
+      "Respawn": "No"
+   },
+   "Augur of Dunlain": {
+      "Name": "Augur of Dunlain",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "College of Winterhold",
+      "Services": "Augury",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Aval Atheron": {
+      "Name": "Aval Atheron",
+      "Race": "Dunmer",
+      "Gender": "Male",
+      "Class": "Pawnbroker",
+      "Faction": "Eastmarch",
+      "Rank": "Citizen",
+      "Services": "Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Aventus Aretino": {
+      "Name": "Aventus Aretino",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Child",
+      "Faction": [
+         "Windhelm",
+         "Dark Brotherhood"
+      ],
+      "Rank": "Citizen",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Avrusa Sarethi": {
+      "Name": "Avrusa Sarethi",
+      "Race": "Dunmer",
+      "Gender": "Female",
+      "Class": "Apothecary",
+      "Faction": "The Rift",
+      "Rank": "Citizen",
+      "Services": [
+         "Nirnroot",
+         null,
+         "Spouse",
+         "Alchemist"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Avulstein Gray-Mane": {
+      "Name": "Avulstein Gray-Mane",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Gray-Mane",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Azura": {
+      "Name": "Azura",
+      "Race": "Daedra"
+   },
+   "Azzada Lylvieve": {
+      "Name": "Azzada Lylvieve",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Farmer",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Azzadal": {
+      "Name": "Azzadal",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Alik'r Warrior",
+      "Services": [
+         "Speech"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Babette": {
+      "Name": "Babette",
+      "Race": "Breton",
+      "Gender": "Female",
+      "Class": "Assassin",
+      "Faction": "Dark Brotherhood",
+      "Services": [
+         "Alchemy",
+         "training",
+         "Alchemy merchant"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Badnir": {
+      "Name": "Badnir",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bagrak": {
+      "Name": "Bagrak",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Orc Guard",
+      "Faction": "Tribal Orcs",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Balagog gro-Nolob": {
+      "Name": "Balagog gro-Nolob",
+      "Race": "Orsimer",
+      "Gender": "Male",
+      "Class": "Rogue",
+      "Location": "Nightgate Inn",
+      "Health": "1",
+      "Magicka": "50",
+      "Stamina": "75",
+      "Rank": "Professional Chef",
+      "Essential": [
+         "Recipe for Disaster"
+      ],
+      "Respawn": "No"
+   },
+   "Balbus": {
+      "Name": "Balbus",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Balgruuf the Greater": {
+      "Name": "Balgruuf the Greater",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Whiterun",
+      "Rank": "Jarl",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Balimund": {
+      "Name": "Balimund",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Blacksmith",
+      "Services": [
+         "Merchant",
+         "Blacksmith",
+         "Spouse",
+         "Skill Trainer: Smithing"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bandit Plunderer": {
+      "Name": "Bandit Plunderer",
+      "Race": [
+         "Argonian",
+         "Bosmer",
+         "Breton",
+         "Dunmer",
+         "Imperial",
+         "Khajiit",
+         "Nord",
+         "Orsimer",
+         "Redguard"
+      ],
+      "Gender": [],
+      "Class": [
+         "Bandit"
+      ],
+      "Health": "362\u2013398",
+      "Magicka": "25\u2013183",
+      "Stamina": "70\u2013172",
+      "Faction": "Bandit",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Bandit Thug": {
+      "Name": "Bandit Thug",
+      "Race": [
+         "Argonian",
+         "Bosmer",
+         "Breton",
+         "Dunmer",
+         "Imperial",
+         "Khajiit",
+         "Nord",
+         "Orsimer",
+         "Redguard"
+      ],
+      "Gender": [],
+      "Class": [
+         "Bandit"
+      ],
+      "Health": "222\u2013238",
+      "Magicka": "25\u2013173",
+      "Stamina": "75\u2013107",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Banning": {
+      "Name": "Banning",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Ranger",
+      "Faction": "Coven of Namira",
+      "Services": [
+         "Sells",
+         "war-dogs"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Baral Sendu": {
+      "Name": "Baral Sendu",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Farmer",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Barbas": {
+      "Name": "Barbas",
+      "Race": "Daedra",
+      "Gender": "Male",
+      "Services": "Follower",
+      "Essential": [
+         "Rueful Axe"
+      ],
+      "Respawn": "No"
+   },
+   "Barknar": {
+      "Name": "Barknar",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Ranger",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bashnag": {
+      "Name": "Bashnag",
+      "Race": "Orsimer",
+      "Gender": "Male",
+      "Class": "Conjurer",
+      "Faction": "Spellswords",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bassianus Axius": {
+      "Name": "Bassianus Axius",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Faction": "Ivarstead",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Batum gra-Bar": {
+      "Name": "Batum gra-Bar",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Bandit",
+      "Faction": "Hunters of Hircine",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Beautiful Barbarian": {
+      "Name": "Beautiful Barbarian",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Beem-Ja": {
+      "Name": "Beem-Ja",
+      "Race": "Argonian",
+      "Gender": "Male",
+      "Class": "Sorcerer",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Beggars": {
+      "Name": "Beggars"
+   },
+   "Beirand": {
+      "Name": "Beirand",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Blacksmith",
+      "Services": "Blacksmith",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Beitild": {
+      "Name": "Beitild",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Miner",
+      "Location": "Dawnstar",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Belchimac": {
+      "Name": "Belchimac",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Miner",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Belethor": {
+      "Name": "Belethor",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Pawnbroker",
+      "Faction": "Whiterun",
+      "Services": "General Goods Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Belrand": {
+      "Name": "Belrand",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Spellsword",
+      "Skills": [
+         "Destruction magic",
+         "Light Armor",
+         "One-Handed weapons"
+      ],
+      "Faction": "Mercenary",
+      "Services": [
+         "Follower",
+         "Spouse",
+         "Steward",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Belyn Hlaalu": {
+      "Name": "Belyn Hlaalu",
+      "Race": "Dunmer",
+      "Gender": "Male",
+      "Class": "Farmer",
+      "Faction": "House Hlaalu",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bendt": {
+      "Name": "Bendt",
+      "Race": "Elder",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Faction": "Bards College",
+      "Rank": "Bards College Chef",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Benkum": {
+      "Name": "Benkum",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Benor": {
+      "Name": "Benor",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Services": [
+         "Follower",
+         "Spouse",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No (Unique)",
+      "Respawn": "No"
+   },
+   "Bergritte Battle-Born": {
+      "Name": "Bergritte Battle-Born",
+      "Race": "Elder",
+      "Gender": "Female",
+      "Class": "Warrior",
+      "Faction": "Battle-Born Clan",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bersi Honey-Hand": {
+      "Name": "Bersi Honey-Hand",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Thief",
+      "Services": [
+         "Weapon",
+         "Armor",
+         "food",
+         "Book",
+         "Potion"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Betrid Silver-Blood": {
+      "Name": "Betrid Silver-Blood",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Faction": "Silver-Blood Family",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bhisha": {
+      "Name": "Bhisha"
+   },
+   "Big Laborer": {
+      "Name": "Big Laborer",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Location": "Katla's Farm",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Birna": {
+      "Name": "Birna",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Pawnbroker",
+      "Services": "General Goods Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bjartur": {
+      "Name": "Bjartur",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Prisoner",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bjorlam": {
+      "Name": "Bjorlam",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Services": "Carriage",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Black-Briar Mercenary": {
+      "Name": "Black-Briar Mercenary",
+      "Race": [
+         "Bosmer",
+         "Imperial",
+         "Khajiit",
+         "Nord",
+         "Orsimer",
+         "Redguard"
+      ],
+      "Gender": [],
+      "Class": "Bandit",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Blaise": {
+      "Name": "Blaise",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Child",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Blasphemous Priest": {
+      "Name": "Blasphemous Priest",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Blood Horker": {
+      "Name": "Blood Horker",
+      "Race": [
+         "Argonian",
+         "Bosmer",
+         "Breton",
+         "Dunmer",
+         "Imperial",
+         "Khajiit",
+         "Nord",
+         "Orsimer",
+         "Redguard"
+      ],
+      "Gender": [],
+      "Class": "Bandit",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bodil": {
+      "Name": "Bodil",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Miner",
+      "Location": [
+         "Iron-Breaker Mine",
+         "Dawnstar"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bodyguard (Pelagius)": {
+      "Name": "Bodyguard (Pelagius)",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Location": "The Mind of a Madman",
+      "Health": "550",
+      "Magicka": "50",
+      "Stamina": "50",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Boethiah": {
+      "Name": "Boethiah",
+      "Race": "Daedra"
+   },
+   "Boethiah Cultist": {
+      "Name": "Boethiah Cultist",
+      "Race": [
+         "Breton",
+         "Dunmer",
+         "Nord",
+         "Redguard"
+      ],
+      "Gender": [],
+      "Faction": "Boethiah",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Bolar": {
+      "Name": "Bolar",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Destruction Mage",
+      "Services": "Alchemist",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bolfrida Brandy-Mug": {
+      "Name": "Bolfrida Brandy-Mug",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Farmer",
+      "Services": "Buys crops",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bolgeir Bearclaw": {
+      "Name": "Bolgeir Bearclaw",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Rank": "Housecarl",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Bolli": {
+      "Name": "Bolli",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Bolund": {
+      "Name": "Bolund",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Faction": "Stormcloaks",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Bor": {
+      "Name": "Bor",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Miner",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Borgakh the Steel Heart": {
+      "Name": "Borgakh the Steel Heart",
+      "Race": "Orsimer",
+      "Gender": "Female",
+      "Class": "Orc Warrior",
+      "Faction": "Tribal Orcs",
+      "Services": [
+         "Follower",
+         "Joining the Blades",
+         "Marriage"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Borgny": {
+      "Name": "Borgny",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Miner",
+      "Location": [
+         "Quicksilver Mine",
+         "Dawnstar"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Borkul the Beast": {
+      "Name": "Borkul the Beast",
+      "Race": "Orsimer",
+      "Gender": "Male",
+      "Class": "Orc Guard",
+      "Faction": "Forsworn",
+      "Rank": "Madanach's Bodyguard",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Borri": {
+      "Name": "Borri",
+      "Race": "Elder",
+      "Gender": "Male",
+      "Class": [
+         "Tongues",
+         "Priest"
+      ],
+      "Faction": "Greybeards",
+      "Services": "Teaches \"Wuld\"",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Borvir": {
+      "Name": "Borvir",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Farmer",
+      "Faction": "College of Winterhold",
+      "Essential": "No",
+      "Respawn": "Yes"
+   },
+   "Bothela": {
+      "Name": "Bothela",
+      "Race": "Breton",
+      "Gender": "Female",
+      "Class": "Apothecary",
+      "Services": "Alchemy Merchant",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Boti": {
+      "Name": "Boti",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Farmer",
+      "Rank": "Citizen",
+      "Services": "Quest giver",
+      "Essential": [
+         "The Book of Love"
+      ],
+      "Respawn": "No"
+   },
+   "Bottar": {
+      "Name": "Bottar",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Child",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Bouncer": {
+      "Name": "Bouncer"
+   },
+   "Bounty Collector": {
+      "Name": "Bounty Collector",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Bandit",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Braig": {
+      "Name": "Braig",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Witchblade",
+      "Faction": "Forsworn",
+      "Rank": "Member",
+      "Services": "Quest NPC",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Braith": {
+      "Name": "Braith",
+      "Race": "Redguard",
+      "Gender": "Female",
+      "Class": "Child",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brand-Shei": {
+      "Name": "Brand-Shei",
+      "Race": "Dunmer",
+      "Gender": "Male",
+      "Class": "Pawnbroker",
+      "Location": "Riften",
+      "Faction": "House Telvanni",
+      "Services": "General Goods Merchant",
+      "Essential": [
+         "A Chance Arrangement"
+      ],
+      "Respawn": "No"
+   },
+   "Brandish": {
+      "Name": "Brandish",
+      "Race": "Breton",
+      "Gender": "Male",
+      "Class": "Bandit Wizard",
+      "Faction": "Bandits",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brelas": {
+      "Name": "Brelas",
+      "Race": "Bosmer",
+      "Gender": "Female",
+      "Class": "Pawnbroker",
+      "Faction": "Thalmor",
+      "Rank": "Servant",
+      "Services": "Drink-server",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brelyna Maryon": {
+      "Name": "Brelyna Maryon",
+      "Race": "Dunmer",
+      "Gender": "Female",
+      "Class": "Mystic",
+      "Location": "College of Winterhold",
+      "Faction": [
+         "College of Winterhold",
+         "House Telvanni"
+      ],
+      "Rank": "Apprentice",
+      "Services": [
+         "Follower",
+         "Marriage",
+         " Steward",
+         "Joining",
+         "the Blades"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brenuin": {
+      "Name": "Brenuin",
+      "Race": "Redguard",
+      "Gender": "Male",
+      "Class": "Beggar",
+      "Faction": "Whiterun",
+      "Rank": "Citizen",
+      "Services": "None",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Breton (Character)": {
+      "Name": "Breton (Character)",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Condition": "Deceased",
+      "Respawn": "No"
+   },
+   "Breya": {
+      "Name": "Breya",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Warrior",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Briehl": {
+      "Name": "Briehl",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Rank": "Acolyte",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brill": {
+      "Name": "Brill",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brina Merilis": {
+      "Name": "Brina Merilis",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Warrior",
+      "Location": "Dawnstar",
+      "Faction": [
+         "Imperial Legion",
+         "Dawnstar"
+      ],
+      "Rank": "Citizen",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Britte": {
+      "Name": "Britte",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Child",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brond": {
+      "Name": "Brond",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Brother Verulus": {
+      "Name": "Brother Verulus",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Priest",
+      "Essential": [
+         "The Taste of Death"
+      ],
+      "Respawn": "No"
+   },
+   "Brunwulf Free-Winter": {
+      "Name": "Brunwulf Free-Winter",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Bryling": {
+      "Name": "Bryling",
+      "Race": "Nord",
+      "Gender": "Female",
+      "Class": "Warrior",
+      "Faction": "Solitude",
+      "Rank": "Thane",
+      "Essential": "Yes",
+      "Respawn": "No"
+   },
+   "Brynjolf": {
+      "Name": "Brynjolf",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Thief",
+      "Faction": [
+         "Thieves Guild",
+         "Nightingales"
+      ],
+      "Rank": "Second-in-command",
+      "Services": [
+         "Quest"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Bulfrek": {
+      "Name": "Bulfrek",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Citizen",
+      "Location": [
+         "The White Hall",
+         "Dawnstar"
+      ],
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Butcher (Bandit Chief)": {
+      "Name": "Butcher (Bandit Chief)"
+   },
+   "Cairine": {
+      "Name": "Cairine",
+      "Race": "Breton",
+      "Gender": "Female",
+      "Class": "Citizen",
+      "Condition": [
+         "Vampirism",
+         "New Allegiances"
+      ],
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Caius": {
+      "Name": "Caius",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Location": "Helgen",
+      "Faction": "Imperial Legion",
+      "Rank": "Soldier",
+      "Essential": "No",
+      "Respawn": "No"
+   },
+   "Calcelmo": {
+      "Name": "Calcelmo",
+      "Race": "Altmer",
+      "Gender": "Male",
+      "Class": "Conjurer",
+      "Rank": "Court Wizard",
+      "Services": "Spell Merchant",
+      "Essential": "Always",
+      "Respawn": "No"
+   },
+   "Calder": {
+      "Name": "Calder",
+      "Race": "Nord",
+      "Gender": "Male",
+      "Class": "Warrior",
+      "Rank": "Housecarl",
+      "Services": [
+         "Follower",
+         "Spouse",
+         "Steward",
+         "Rebuilding the Blades"
+      ],
+      "Respawn": "No"
+   },
+   "Calixto Corrium": {
+      "Name": "Calixto Corrium",
+      "Race": "Imperial",
+      "Gender": "Male",
+      "Class": "Rogue",
+      "Respawn": "No"
+   }
+}

@@ -1,0 +1,805 @@
+{
+   "Abnur Tharn": {
+      "Name": "Abnur Tharn",
+      "Set": "Alliance War",
+      "Type": "Creature",
+      "Subtype": "Imperial",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Unique legendary",
+      "Effects": "Unique legendary"
+   },
+   "Abomination": {
+      "Name": "Abomination",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Abomination",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Legendary"
+   },
+   "Acolyte of Boethiah": {
+      "Name": "Acolyte of Boethiah",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Wood Elf",
+      "Attribute(s)": "Strength",
+      "Rarity": "Common"
+   },
+   "Adoring Fan": {
+      "Name": "Adoring Fan",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Wood Elf",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Unique legendary"
+   },
+   "Aela the Huntress": {
+      "Name": "Aela the Huntress",
+      "Set": "Heroes of Skyrim",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Strength",
+      "Rarity": "Unique legendary",
+      "Effects": "Unique legendary"
+   },
+   "Aela's Huntmate": {
+      "Name": "Aela's Huntmate",
+      "Set": "Heroes of Skyrim",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Strength",
+      "Rarity": "Rare"
+   },
+   "Afflicted Alit": {
+      "Name": "Afflicted Alit",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Strength",
+      "Rarity": "Rare"
+   },
+   "Ageless Automaton": {
+      "Name": "Ageless Automaton",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Dwemer",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Rare",
+      "Effects": "Rare"
+   },
+   "Ageless Vampire": {
+      "Name": "Ageless Vampire",
+      "Set": "The Fall of the Dark Brotherhood",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Agent of Mehrunes Dagon": {
+      "Name": "Agent of Mehrunes Dagon",
+      "Set": "Jaws of Oblivion",
+      "Type": "Creature",
+      "Subtype": "Imperial",
+      "Attribute(s)": "Strength",
+      "Rarity": "Common",
+      "Effects": "Common"
+   },
+   "Aggressive Spider": {
+      "Name": "Aggressive Spider",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Agility",
+      "Rarity": "Common"
+   },
+   "Ahnassi": {
+      "Name": "Ahnassi",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Khajiit",
+      "Attribute(s)": [
+         "Willpower",
+         "Agility"
+      ],
+      "Class": "Monk",
+      "Rarity": "Unique legendary"
+   },
+   "Alchemy": {
+      "Name": "Alchemy",
+      "Set": "Alliance War",
+      "Type": "Action",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Epic"
+   },
+   "Ald Velothi Assassin": {
+      "Name": "Ald Velothi Assassin",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Breton",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Rare"
+   },
+   "Ald'ruhn Arms Master": {
+      "Name": "Ald'ruhn Arms Master",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": "Strength",
+      "Rarity": "Rare"
+   },
+   "Aldmeri Patriot": {
+      "Name": "Aldmeri Patriot",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Rare",
+      "Effects": "Rare"
+   },
+   "Aldmeri Spellwright": {
+      "Name": "Aldmeri Spellwright",
+      "Set": "Tamriel Collection",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": [
+         "Intelligence",
+         "Willpower",
+         "Agility"
+      ],
+      "Class": "Aldmeri Dominion",
+      "Rarity": "Epic"
+   },
+   "Aldora the Daring": {
+      "Name": "Aldora the Daring",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Nord",
+      "Attribute(s)": "Strength",
+      "Rarity": "Unique legendary"
+   },
+   "Alduin": {
+      "Name": "Alduin",
+      "Set": "Heroes of Skyrim",
+      "Type": "Creature",
+      "Subtype": "Dragon",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Unique legendary"
+   },
+   "Alfe Fyr": {
+      "Name": "Alfe Fyr",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Unique legendary"
+   },
+   "Alfiq Conjurer": {
+      "Name": "Alfiq Conjurer",
+      "Set": "Moons of Elsweyr",
+      "Type": "Creature",
+      "Subtype": "Khajiit",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Legendary"
+   },
+   "Alfiq Illusionist": {
+      "Name": "Alfiq Illusionist",
+      "Set": "Moons of Elsweyr",
+      "Type": "Creature",
+      "Subtype": "Khajiit",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Rare",
+      "Effects": "Rare"
+   },
+   "Alik'r Bandit": {
+      "Name": "Alik'r Bandit",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Redguard",
+      "Attribute(s)": "Strength",
+      "Rarity": "Epic"
+   },
+   "Alik'r Survivalist": {
+      "Name": "Alik'r Survivalist",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Redguard",
+      "Attribute(s)": "Strength",
+      "Rarity": "Epic"
+   },
+   "Alisanne Dupre": {
+      "Name": "Alisanne Dupre",
+      "Set": "The Fall of the Dark Brotherhood",
+      "Type": "Support",
+      "Subtype": "Ongoing",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Legendary"
+   },
+   "Allena Benoch": {
+      "Name": "Allena Benoch",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Wood Elf",
+      "Attribute(s)": [
+         "Strength",
+         "Agility"
+      ],
+      "Class": "Archer",
+      "Rarity": "Unique legendary"
+   },
+   "Almalexia": {
+      "Name": "Almalexia",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "God",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Unique legendary"
+   },
+   "Almalexia's Blessing": {
+      "Name": "Almalexia's Blessing",
+      "Set": "Houses of Morrowind",
+      "Type": "Action",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Almalexia's Disciple": {
+      "Name": "Almalexia's Disciple",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Rare"
+   },
+   "Alpha Wolf": {
+      "Name": "Alpha Wolf",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Willpower",
+      "Rarity": "Epic"
+   },
+   "Altar of Despair": {
+      "Name": "Altar of Despair",
+      "Set": "Madhouse Collection",
+      "Type": "Support",
+      "Subtype": "Activate",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Legendary",
+      "Effects": "Legendary"
+   },
+   "Altar of Spellmaking": {
+      "Name": "Altar of Spellmaking",
+      "Set": "Tamriel Collection",
+      "Type": "Support",
+      "Subtype": "Ongoing",
+      "Attribute(s)": [
+         "Strength",
+         "Intelligence",
+         "Willpower"
+      ],
+      "Class": "The Guildsworn",
+      "Rarity": "Epic"
+   },
+   "Altmer Dragonknight": {
+      "Name": "Altmer Dragonknight",
+      "Set": "Monthly Card",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": [
+         "Intelligence",
+         "Willpower"
+      ],
+      "Class": "Mage",
+      "Rarity": "Epic"
+   },
+   "Altmer Flameslinger": {
+      "Name": "Altmer Flameslinger",
+      "Set": "Alliance War",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Common"
+   },
+   "Altmer Protector": {
+      "Name": "Altmer Protector",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Common"
+   },
+   "Ambitious Hireling": {
+      "Name": "Ambitious Hireling",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Wood Elf",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Common"
+   },
+   "Amulet of Mara": {
+      "Name": "Amulet of Mara",
+      "Set": "Monthly Card",
+      "Type": "Item",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Epic"
+   },
+   "An-Xileel Invader": {
+      "Name": "An-Xileel Invader",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Argonian",
+      "Attribute(s)": "Agility",
+      "Rarity": "Common"
+   },
+   "Ancano": {
+      "Name": "Ancano",
+      "Set": "Heroes of Skyrim",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Unique legendary"
+   },
+   "Ancestor's Battleaxe": {
+      "Name": "Ancestor's Battleaxe",
+      "Set": "Heroes of Skyrim",
+      "Type": "Item",
+      "Attribute(s)": "Strength",
+      "Rarity": "Epic"
+   },
+   "Ancestral Dead": {
+      "Name": "Ancestral Dead",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Ancient Giant": {
+      "Name": "Ancient Giant",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Giant",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Legendary"
+   },
+   "Ancient Lookout": {
+      "Name": "Ancient Lookout",
+      "Set": "Heroes of Skyrim",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Angry Grahl": {
+      "Name": "Angry Grahl",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Troll",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Epic"
+   },
+   "Angry Villager": {
+      "Name": "Angry Villager",
+      "Set": "Heroes of Skyrim",
+      "Type": "Creature",
+      "Subtype": "Nord",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Common"
+   },
+   "Apex Predator": {
+      "Name": "Apex Predator",
+      "Set": "Moons of Elsweyr",
+      "Type": "Creature",
+      "Subtype": "Khajiit",
+      "Attribute(s)": "Agility",
+      "Rarity": "Epic"
+   },
+   "Apex Wolf": {
+      "Name": "Apex Wolf",
+      "Set": "FrostSpark Collection",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Willpower",
+      "Rarity": "Epic",
+      "Effects": "Epic"
+   },
+   "Apprentice Necromancer": {
+      "Name": "Apprentice Necromancer",
+      "Set": "Monthly Card",
+      "Type": "Creature",
+      "Subtype": "Imperial",
+      "Attribute(s)": [
+         "Willpower",
+         "Endurance"
+      ],
+      "Class": "Spellsword",
+      "Rarity": "Epic"
+   },
+   "Apprentice's Potion": {
+      "Name": "Apprentice's Potion",
+      "Set": "Core Non-Collectible",
+      "Type": "Action",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Common"
+   },
+   "Arcanaeum Librarian": {
+      "Name": "Arcanaeum Librarian",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Orc",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Common"
+   },
+   "Arcane Enchanter": {
+      "Name": "Arcane Enchanter",
+      "Set": "Heroes of Skyrim",
+      "Type": "Support",
+      "Subtype": "Ongoing",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Epic"
+   },
+   "Archcanon Saryoni": {
+      "Name": "Archcanon Saryoni",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": [
+         "Intelligence",
+         "Willpower",
+         "Endurance"
+      ],
+      "Class": "Tribunal Temple",
+      "Rarity": "Unique legendary"
+   },
+   "Archein Elite": {
+      "Name": "Archein Elite",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Argonian",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Rare"
+   },
+   "Archein Guerrilla": {
+      "Name": "Archein Guerrilla",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Argonian",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Rare"
+   },
+   "Archein Venomtongue": {
+      "Name": "Archein Venomtongue",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Argonian",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Rare"
+   },
+   "Archer's Gambit": {
+      "Name": "Archer's Gambit",
+      "Set": "Heroes of Skyrim",
+      "Type": "Action",
+      "Attribute(s)": [
+         "Strength",
+         "Agility"
+      ],
+      "Class": "Archer",
+      "Rarity": "Rare"
+   },
+   "Arenthia Guerrilla": {
+      "Name": "Arenthia Guerrilla",
+      "Set": "Jaws of Oblivion",
+      "Type": "Creature",
+      "Subtype": "Wood Elf",
+      "Attribute(s)": "Agility",
+      "Rarity": "Common"
+   },
+   "Arenthia Swindler": {
+      "Name": "Arenthia Swindler",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Khajiit",
+      "Attribute(s)": "Agility",
+      "Rarity": "Epic"
+   },
+   "Argonian Recruit": {
+      "Name": "Argonian Recruit",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Argonian",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Argonian Veteran": {
+      "Name": "Argonian Veteran",
+      "Set": "Core Non-Collectible",
+      "Type": "Creature",
+      "Subtype": "Argonian",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Arise": {
+      "Name": "Arise",
+      "Set": "Moons of Elsweyr",
+      "Type": "Action",
+      "Attribute(s)": "Endurance",
+      "Rarity": "Common"
+   },
+   "Arrest": {
+      "Name": "Arrest",
+      "Set": "Heroes of Skyrim",
+      "Type": "Action",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Rare"
+   },
+   "Arrow in the Knee": {
+      "Name": "Arrow in the Knee",
+      "Set": "Core",
+      "Type": "Action",
+      "Rarity": "Common"
+   },
+   "Arrow Storm": {
+      "Name": "Arrow Storm",
+      "Set": "Core",
+      "Type": "Action",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Rare"
+   },
+   "Artaeum Savant": {
+      "Name": "Artaeum Savant",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Epic"
+   },
+   "Ascended Sleeper": {
+      "Name": "Ascended Sleeper",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Ash Creature",
+      "Attribute(s)": [
+         "Strength",
+         "Intelligence",
+         "Agility"
+      ],
+      "Class": "House Dagoth",
+      "Rarity": "Rare"
+   },
+   "Ash Berserker": {
+      "Name": "Ash Berserker",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Ash Creature",
+      "Attribute(s)": "Strength",
+      "Rarity": "Rare"
+   },
+   "Ash Oppressor": {
+      "Name": "Ash Oppressor",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Ash Creature",
+      "Attribute(s)": "Agility",
+      "Rarity": "Common"
+   },
+   "Ash Piercer": {
+      "Name": "Ash Piercer",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Ash Creature",
+      "Attribute(s)": "Intelligence",
+      "Class": "House Dagoth",
+      "Rarity": "Rare"
+   },
+   "Ash Servant": {
+      "Name": "Ash Servant",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Ash Creature",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Rare"
+   },
+   "Ashlander Punisher": {
+      "Name": "Ashlander Punisher",
+      "Set": "Monthly Card",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": [
+         "Strength",
+         "Agility"
+      ],
+      "Class": "Archer",
+      "Rarity": "Epic"
+   },
+   "Ashlander Zealot": {
+      "Name": "Ashlander Zealot",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": "Strength",
+      "Rarity": "Common"
+   },
+   "Aspect of Hircine": {
+      "Name": "Aspect of Hircine",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Strength",
+      "Rarity": "Legendary"
+   },
+   "Assassin Beetle": {
+      "Name": "Assassin Beetle",
+      "Set": "Alliance War",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Agility",
+      "Rarity": "Rare"
+   },
+   "Assassin's Bow": {
+      "Name": "Assassin's Bow",
+      "Set": "Core",
+      "Type": "Item",
+      "Attribute(s)": "Strength",
+      "Rarity": "Rare"
+   },
+   "Assassin's Ritual": {
+      "Name": "Assassin's Ritual",
+      "Set": "Heroes of Skyrim",
+      "Type": "Action",
+      "Attribute(s)": [
+         "Intelligence",
+         "Agility"
+      ],
+      "Class": "Assassin",
+      "Rarity": "Rare"
+   },
+   "Assembled Conduit": {
+      "Name": "Assembled Conduit",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Factotum",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Common"
+   },
+   "Assembled Sanitizer": {
+      "Name": "Assembled Sanitizer",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Factotum",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Common"
+   },
+   "Assembled Sentry": {
+      "Name": "Assembled Sentry",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Factotum",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Common"
+   },
+   "Assembled Titan": {
+      "Name": "Assembled Titan",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Factotum",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Unique legendary"
+   },
+   "Astrid": {
+      "Name": "Astrid",
+      "Set": "The Fall of the Dark Brotherhood",
+      "Type": "Creature",
+      "Subtype": "Nord",
+      "Attribute(s)": "Agility",
+      "Rarity": "Unique legendary"
+   },
+   "Attuned Dremora": {
+      "Name": "Attuned Dremora",
+      "Set": "Jaws of Oblivion",
+      "Type": "Creature",
+      "Subtype": "Daedra",
+      "Attribute(s)": "Intelligence",
+      "Rarity": "Rare"
+   },
+   "Aundae Clan Sorcerer": {
+      "Name": "Aundae Clan Sorcerer",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": null,
+      "Attribute(s)": "Endurance",
+      "Rarity": "Legendary"
+   },
+   "Auridon Paladin": {
+      "Name": "Auridon Paladin",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Common"
+   },
+   "Auroran Sentry": {
+      "Name": "Auroran Sentry",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "Daedra",
+      "Attribute(s)": "Willpower",
+      "Rarity": "Legendary"
+   },
+   "Avatar of Akatosh": {
+      "Name": "Avatar of Akatosh",
+      "Set": "Jaws of Oblivion",
+      "Type": "Creature",
+      "Subtype": "Dragon",
+      "Attribute(s)": [
+         "Agility",
+         "Endurance"
+      ],
+      "Class": "Scout",
+      "Rarity": "Unique legendary"
+   },
+   "Awakened Dreamer": {
+      "Name": "Awakened Dreamer",
+      "Set": "Houses of Morrowind",
+      "Type": "Creature",
+      "Subtype": "Dark Elf",
+      "Attribute(s)": "Agility",
+      "Rarity": "Rare",
+      "Effects": "Rare"
+   },
+   "Awakened Imperfect": {
+      "Name": "Awakened Imperfect",
+      "Set": "Return to Clockwork City",
+      "Type": "Creature",
+      "Subtype": "Automaton",
+      "Attribute(s)": "Neutral",
+      "Rarity": "Rare"
+   },
+   "Ayleid Guardian": {
+      "Name": "Ayleid Guardian",
+      "Set": "Monthly Card",
+      "Type": "Creature",
+      "Subtype": "Defense",
+      "Attribute(s)": [
+         "Agility",
+         "Endurance"
+      ],
+      "Class": "Scout",
+      "Rarity": "Epic"
+   },
+   "Ayrenn": {
+      "Name": "Ayrenn",
+      "Set": "Core",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": [
+         "Intelligence",
+         "Willpower"
+      ],
+      "Class": "Mage",
+      "Rarity": "Unique legendary"
+   },
+   "Ayrenn's Chosen": {
+      "Name": "Ayrenn's Chosen",
+      "Set": "Alliance War",
+      "Type": "Action",
+      "Attribute(s)": [
+         "Intelligence",
+         "Willpower",
+         "Agility"
+      ],
+      "Class": "Aldmeri Dominion",
+      "Rarity": "Epic",
+      "Effects": "Epic"
+   },
+   "Ayrenn, Dominion Queen": {
+      "Name": "Ayrenn, Dominion Queen",
+      "Set": "Alliance War",
+      "Type": "Creature",
+      "Subtype": "High Elf",
+      "Attribute(s)": [
+         "Intelligence",
+         "Willpower",
+         "Agility"
+      ],
+      "Class": "Aldmeri Dominion",
+      "Rarity": "Unique legendary"
+   }
+}
