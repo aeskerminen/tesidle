@@ -13,3 +13,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@keyframes showAnim {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.show {
+  animation: showAnim 1.5s;
+}

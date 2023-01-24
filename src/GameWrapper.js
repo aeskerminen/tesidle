@@ -2,8 +2,6 @@ import React, { useEffect, useMemo, useState } from "react";
 
 import background from "./img/sk_bg.jpg";
 
-import Cards from "./data/cards.json";
-
 import { CardWrapper } from "./CardWrapper";
 import { CardHelper } from "./CardHelper";
 
@@ -20,6 +18,7 @@ import {
 
 import { Line } from "react-chartjs-2";
 import { faker } from "@faker-js/faker";
+import { useAppContext } from "./AppContext";
 
 ChartJS.register(
   CategoryScale,
@@ -55,46 +54,35 @@ const data = {
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
     },
-    // {
-    //   label: "Dataset 2",
-    //   data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
-    //   borderColor: "rgb(53, 162, 235)",
-    //   backgroundColor: "rgba(53, 162, 235, 0.5)",
-    // },
   ],
 };
 
 export const GameWrapper = (props) => {
-  let [cardData, setCardData] = useState([]);
+  let [input, setInput] = useState("");
 
   let [playedCards, setPlayedCards] = useState([]);
   let [playedCardNames, setPlayedCardNames] = useState([]);
 
-  let [targetCard, setTargetCard] = useState();
-
-  let [input, setInput] = useState("");
+  let [cardData, setCardData] = useState([]);
 
   let [showHelp, setShowHelp] = useState(false);
+  let [dailyFinish, setDailyFinish] = useState(false);
 
-  let [dailyFinish, setDailyFinish] = useState(true);
-
-  let [guessCounter, setGuessCounter] = useState(0);
-  let [winCounter, setWinCounter] = useState(0);
+  let { isLoading, cardOfToday, todaysWins, Cards, addWin, addGuess } =
+    useAppContext();
 
   useEffect(() => {
-    const values = Object.values(Cards);
-    setCardData((cardData = [...values]));
-
-    getTargetCard();
-
-    console.log(targetCard);
-  }, []);
+    if (!isLoading) {
+      const values = Object.values(Cards);
+      setCardData((cardData = [...values]));
+    }
+  }, [isLoading]);
 
   useEffect(() => {
     if (playedCards.length > 0) {
-      if (playedCards[0]["Name"] === targetCard["Name"]) {
+      if (playedCards[0]["Name"] === cardOfToday["Name"]) {
         console.log("WIN!!");
-        setWinCounter((winCounter += 1));
+        addWin();
         setDailyFinish(true);
 
         setPlayedCardNames([]);
@@ -102,11 +90,6 @@ export const GameWrapper = (props) => {
       }
     }
   }, [playedCards]);
-
-  function getTargetCard() {
-    const index = Math.floor(Math.random() * cardData.length);
-    setTargetCard((targetCard = cardData[index]));
-  }
 
   return (
     <div className="h-full">
@@ -153,7 +136,7 @@ export const GameWrapper = (props) => {
             </div>
             <div className="bg-slate-100 p-2 shadow">
               <span>
-                You and {/*amount*/ 2} others have guessed the right card today
+                You and {todaysWins} others have guessed the right card today
               </span>
             </div>
           </div>
@@ -191,7 +174,7 @@ export const GameWrapper = (props) => {
                         (playedCardNames = [input, ...playedCardNames])
                       );
 
-                      setGuessCounter((guessCounter += 1));
+                      addGuess();
                     }
                   }}
                   type="button"
@@ -213,7 +196,12 @@ export const GameWrapper = (props) => {
               <div className="flex flex-col gap-y-2 w-2/3">
                 {playedCards.map((cur) => {
                   return (
-                    <CardWrapper card={cur} target={targetCard}></CardWrapper>
+                    <div key={cur} className="show">
+                      <CardWrapper
+                        card={cur}
+                        target={cardOfToday}
+                      ></CardWrapper>
+                    </div>
                   );
                 })}
               </div>
